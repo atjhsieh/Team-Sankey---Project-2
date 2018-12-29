@@ -1,4 +1,4 @@
-from config import password
+from config import password, username
 import pymongo
 import os
 from flask import (
@@ -8,7 +8,7 @@ from flask import (
     request,
     redirect)
 
-conn = f'mongodb://manda036:{password}@cluster0-shard-00-00-kjmy2.mongodb.net:27017,cluster0-shard-00-01-kjmy2.mongodb.net:27017,cluster0-shard-00-02-kjmy2.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true'
+conn = f'mongodb://{username}:{password}@cluster0-shard-00-00-kjmy2.mongodb.net:27017,cluster0-shard-00-01-kjmy2.mongodb.net:27017,cluster0-shard-00-02-kjmy2.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true'
 client = pymongo.MongoClient(conn)
 db = client.GlobalMarkets_DB
 
@@ -20,6 +20,8 @@ def home():
     print(global_markets)
 
     return render_template("index.html", global_markets=global_markets)
-
+# @app.route("country")
+# @app.route("year")
+# @app.route("index")
 if __name__ == "__main__":
     app.run(debug=True)
