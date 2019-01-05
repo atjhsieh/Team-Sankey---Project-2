@@ -20,6 +20,15 @@ def home():
     print(global_markets)
 
     return render_template("index.html", global_markets=global_markets)
+# @app.route("country")
+# @app.route("index")
+@app.route("indicatorlist", methods = ['POST'])
+def get_post_javascript_data():
+    # get all indicator values here:
+    #ROR, GDP, Inflation, Unemployment = data
+    jsdata = request.form['data']
+    return json.loads(jsdata)[0]
 
+    
 if __name__ == "__main__":
     app.run(debug=True)
