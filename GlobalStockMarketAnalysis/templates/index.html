@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write(decodeURIComponent('%3Cscript src="js/jquery.min.js"%3E%3C/script%3E'))</script>
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/18.2.4/css/dx.common.css" />
+    <link rel="dx-theme" data-theme="generic.light" href="https://cdn3.devexpress.com/jslib/18.2.4/css/dx.light.css" />
+    <script src="https://cdn3.devexpress.com/jslib/18.2.4/js/dx.all.js"></script>
+    <title>Team Sankey</title>
+</head>
+<body>
+    <div>
+        <ul style="list-style: none;">
+            {% for market in global_markets %}
+            <li>{{ market.Continent }}: {{ market.Country }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="bar-plot"></div>
+    <div class="regression-plot"></div>
+    <div class="widget-plot"></div>
+    <div class="tree-grid"></div>
+    <script type="text/javascript" src="{{ url_for('static', filename='/js/logic.js') }}"></script>
+</body>
+</html>
