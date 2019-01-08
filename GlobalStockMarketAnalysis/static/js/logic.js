@@ -1,6 +1,6 @@
 // $.get( "/getindicator/data" );
 $(function(){
-    $(".widget-plot").dxBarGauge({
+    $("#widget-plot").dxBarGauge({
         startValue: 0,
         endValue: 100,
         values: [47.27, 65.32, 84.59, 71.86],

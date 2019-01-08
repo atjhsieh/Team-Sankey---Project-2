@@ -13,17 +13,9 @@
     <title>Team Sankey</title>
 </head>
 <body>
-    <div>
-        <ul style="list-style: none;">
-            {% for market in global_markets %}
-            <li>{{ market.Continent }}: {{ market.Country }}</li>
-            {% endfor %}
-        </ul>
-    </div>
     <div class="bar-plot"></div>
     <div class="regression-plot"></div>
-    <div class="widget-plot"></div>
-    <div class="tree-grid"></div>
-    <script type="text/javascript" src="{{ url_for('static', filename='/js/logic.js') }}"></script>
+    <div id="widget-plot"></div>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/logic.js') }}"></script>
 </body>
 </html>
