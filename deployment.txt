@@ -1,7 +1,0 @@
-Create new Python environment called "Sankey" for Project: `conda create -n Sankey python=3.6`
-Activate environment: `source activate Sankey`
-Install Libraries: `pip install pymongo flask gunicorn psycopg2`
-
-These need to be done when we are ready to deploy:
-`FLASK_APP=app.py flask run`
-`pip freeze > requirements.txt`

@@ -21,8 +21,7 @@ def home():
     global_markets = list(db.GlobalMarkets.find())
     print(global_markets)
     return render_template("index.html", global_markets=global_markets)
-# @app.route("country")
-# @app.route("index")
+
 @app.route("/alldata")
 def data_json():
    global_markets = list(db.GlobalMarkets.find())
