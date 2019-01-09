@@ -1,2 +1,2 @@
-from app import db
+from GlobalStockMarketAnalysis.app import db
 db.create_all()
