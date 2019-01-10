@@ -11,11 +11,17 @@
     <link rel="dx-theme" data-theme="generic.light" href="https://cdn3.devexpress.com/jslib/18.2.4/css/dx.light.css" />
     <script src="https://cdn3.devexpress.com/jslib/18.2.4/js/dx.all.js"></script>
     <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
     <title>Team Sankey</title>
 </head>
 <body>
-    <div class="bar-plot"></div>
+    <select id="selDataset" onchange="optionChanged(this.value)"></select>
+    <div class="container">
+        <div class="row">
+            <div id="chart-area"></div>
+        </div>
+    </div>
     <div class="regression-plot"></div>
     <div id="widget-plot"></div>
     <script type="text/javascript" src="{{ url_for('static', filename='js/logic.js') }}"></script>
