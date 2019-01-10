@@ -1,0 +1,119 @@
+[
+  {
+    "Country": "Australia",
+    "Year": 2013,
+    "Index Rate of Return": 12.98,
+    "Unemployment": 5.4,
+    "Inflation": 2.2,
+    "GDP": 1538.19,
+    "GDP Rate": 10.62
+  },
+  {
+    "Country": "Brazil",
+    "Year": 2013,
+    "Index Rate of Return": 7.4,
+    "Unemployment": 6.9,
+    "Inflation": 5.84,
+    "GDP": 2616.2,
+    "GDP Rate": 18.44
+  },
+  {
+    "Country": "China",
+    "Year": 2013,
+    "Index Rate of Return": 22.91,
+    "Unemployment": 4.1,
+    "Inflation": 2.5,
+    "GDP": 8560.55,
+    "GDP Rate": 13.05
+  },
+  {
+    "Country": "USA",
+    "Year": 2013,
+    "Index Rate of Return": 13.41,
+    "Unemployment": 7.9,
+    "Inflation": 1.7,
+    "GDP": 15517.9,
+    "GDP Rate": 3.7
+  },
+  {
+    "Country": "Indonesia",
+    "Year": 2013,
+    "Index Rate of Return": 12.94,
+    "Unemployment": 6.07,
+    "Inflation": 0.54,
+    "GDP": -1.45,
+    "GDP Rate": 11.54
+  },
+  {
+    "Country": "Korea",
+    "Year": 2013,
+    "Index Rate of Return": 9.38,
+    "Unemployment": 3.1,
+    "Inflation": 1.4,
+    "GDP": 0.6,
+    "GDP Rate": 0
+  },
+  {
+    "Country": "Argentina",
+    "Year": 2013,
+    "Index Rate of Return": 15.9,
+    "Unemployment": 6.9,
+    "Inflation": 10.8,
+    "GDP": 546,
+    "GDP Rate": 2.98
+  },
+  {
+    "Country": "Italy",
+    "Year": 2013,
+    "Index Rate of Return": 7.84,
+    "Unemployment": 11.4,
+    "Inflation": 2.31,
+    "GDP": 2072.82,
+    "GDP Rate": -8.94
+  },
+  {
+    "Country": "Mexico",
+    "Year": 2013,
+    "Index Rate of Return": 17.88,
+    "Unemployment": 4.4,
+    "Inflation": 3.57,
+    "GDP": 1186.6,
+    "GDP Rate": 1.32
+  },
+  {
+    "Country": "Japan",
+    "Year": 2013,
+    "Index Rate of Return": 22.94,
+    "Unemployment": 4.3,
+    "Inflation": -0.1,
+    "GDP": 6203.2,
+    "GDP Rate": 0.74
+  },
+  {
+    "Country": "New Zealand",
+    "Year": 2013,
+    "Index Rate of Return": 24.18,
+    "Unemployment": 6.2,
+    "Inflation": 0.9,
+    "GDP": 168.46,
+    "GDP Rate": 14.93
+  },
+  {
+    "Country": "Switzerland",
+    "Year": 2013,
+    "Index Rate of Return": 14.93,
+    "Unemployment": 3.3,
+    "Inflation": -0.4,
+    "GDP": 696.28,
+    "GDP Rate": 19.8
+  },
+  {
+    "Country": "Taiwan",
+    "Year": 2013,
+    "Index Rate of Return": 8.87,
+    "Unemployment": 4.24,
+    "Inflation": 1.6,
+    "GDP": 485.67,
+    "GDP Rate": 8.86
+  }
+]

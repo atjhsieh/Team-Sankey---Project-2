@@ -1,0 +1,106 @@
+[
+  {
+    "Country": "Australia",
+    "Year": 2018,
+    "Index Rate of Return": 7.05,
+    "Unemployment": 5.6,
+    "Inflation": 1.9,
+    "GDP Rate": 9.55
+  },
+  {
+    "Country": "Brazil",
+    "Year": 2018,
+    "Index Rate of Return": 26.86,
+    "Unemployment": 11.8,
+    "Inflation": 2.95,
+    "GDP Rate": -0.54
+  },
+  {
+    "Country": "China",
+    "Year": 2018,
+    "Index Rate of Return": 35.99,
+    "Unemployment": 3.9,
+    "Inflation": 1.8,
+    "GDP Rate": 9.35
+  },
+  {
+    "Country": "USA",
+    "Year": 2018,
+    "Index Rate of Return": 19.42,
+    "Unemployment": 4.1,
+    "Inflation": 2.1,
+    "GDP Rate": 2.78
+  },
+  {
+    "Country": "Indonesia",
+    "Year": 2018,
+    "Index Rate of Return": 19.99,
+    "Unemployment": 5.5,
+    "Inflation": 0.71,
+    "GDP Rate": -6.08
+  },
+  {
+    "Country": "Korea",
+    "Year": 2018,
+    "Index Rate of Return": 21.76,
+    "Unemployment": 3.7,
+    "Inflation": 1.5,
+    "GDP Rate": -128.57
+  },
+  {
+    "Country": "Argentina",
+    "Year": 2018,
+    "Index Rate of Return": 77.72,
+    "Unemployment": 7.2,
+    "Inflation": 25,
+    "GDP Rate": 14.9
+  },
+  {
+    "Country": "Italy",
+    "Year": 2018,
+    "Index Rate of Return": 13.61,
+    "Unemployment": 10.9,
+    "Inflation": 0.9,
+    "GDP Rate": 4.06
+  },
+  {
+    "Country": "Mexico",
+    "Year": 2018,
+    "Index Rate of Return": 8.13,
+    "Unemployment": 3.1,
+    "Inflation": 6.77,
+    "GDP Rate": 6.78
+  },
+  {
+    "Country": "Japan",
+    "Year": 2018,
+    "Index Rate of Return": 19.1,
+    "Unemployment": 2.7,
+    "Inflation": 1,
+    "GDP Rate": -1.56
+  },
+  {
+    "Country": "New Zealand",
+    "Year": 2018,
+    "Index Rate of Return": 22.04,
+    "Unemployment": 4.5,
+    "Inflation": 1.6,
+    "GDP Rate": 7.82
+  },
+  {
+    "Country": "Switzerland",
+    "Year": 2018,
+    "Index Rate of Return": 14.14,
+    "Unemployment": 3.3,
+    "Inflation": 0.8,
+    "GDP Rate": -0.3
+  },
+  {
+    "Country": "Taiwan",
+    "Year": 2018,
+    "Index Rate of Return": 15.01,
+    "Unemployment": 3.7,
+    "Inflation": 1.22,
+    "GDP Rate": 1.02
+  }
+]

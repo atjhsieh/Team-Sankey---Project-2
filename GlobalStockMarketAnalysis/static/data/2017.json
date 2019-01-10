@@ -1,0 +1,119 @@
+[
+  {
+    "Country": "Australia",
+    "Year": 2017,
+    "Index Rate of Return": 6.98,
+    "Unemployment": 5.8,
+    "Inflation": 1.5,
+    "GDP": 1208,
+    "GDP Rate": -10.21
+  },
+  {
+    "Country": "Brazil",
+    "Year": 2017,
+    "Index Rate of Return": 38.93,
+    "Unemployment": 12,
+    "Inflation": 6.29,
+    "GDP": 1803.65,
+    "GDP Rate": -26.56
+  },
+  {
+    "Country": "China",
+    "Year": 2017,
+    "Index Rate of Return": 0.39,
+    "Unemployment": 4.02,
+    "Inflation": 2.1,
+    "GDP": 11191,
+    "GDP Rate": 1.14
+  },
+  {
+    "Country": "USA",
+    "Year": 2017,
+    "Index Rate of Return": 9.54,
+    "Unemployment": 4.7,
+    "Inflation": 2.1,
+    "GDP": 18120.7,
+    "GDP Rate": 4.18
+  },
+  {
+    "Country": "Indonesia",
+    "Year": 2017,
+    "Index Rate of Return": 15.32,
+    "Unemployment": 5.61,
+    "Inflation": 0.42,
+    "GDP": -1.81,
+    "GDP Rate": 4.62
+  },
+  {
+    "Country": "Korea",
+    "Year": 2017,
+    "Index Rate of Return": 3.32,
+    "Unemployment": 3.5,
+    "Inflation": 1.3,
+    "GDP": 0.7,
+    "GDP Rate": -12.5
+  },
+  {
+    "Country": "Argentina",
+    "Year": 2017,
+    "Index Rate of Return": 44.9,
+    "Unemployment": 7.6,
+    "Inflation": 40.5,
+    "GDP": 554.9,
+    "GDP Rate": -5.1
+  },
+  {
+    "Country": "Italy",
+    "Year": 2017,
+    "Index Rate of Return": -10.2,
+    "Unemployment": 11.7,
+    "Inflation": 0.5,
+    "GDP": 1859.38,
+    "GDP Rate": 1.89
+  },
+  {
+    "Country": "Mexico",
+    "Year": 2017,
+    "Index Rate of Return": 6.2,
+    "Unemployment": 3.37,
+    "Inflation": 3.36,
+    "GDP": 1076.91,
+    "GDP Rate": -6.44
+  },
+  {
+    "Country": "Japan",
+    "Year": 2017,
+    "Index Rate of Return": 0.42,
+    "Unemployment": 3.1,
+    "Inflation": 0.3,
+    "GDP": 4949.27,
+    "GDP Rate": 12.92
+  },
+  {
+    "Country": "New Zealand",
+    "Year": 2017,
+    "Index Rate of Return": 8.81,
+    "Unemployment": 5.3,
+    "Inflation": 1.3,
+    "GDP": 175.56,
+    "GDP Rate": -12.53
+  },
+  {
+    "Country": "Switzerland",
+    "Year": 2017,
+    "Index Rate of Return": -6.78,
+    "Unemployment": 3.5,
+    "Inflation": 0,
+    "GDP": 670.79,
+    "GDP Rate": -4.54
+  },
+  {
+    "Country": "Taiwan",
+    "Year": 2017,
+    "Index Rate of Return": 10.98,
+    "Unemployment": 3.83,
+    "Inflation": 1.69,
+    "GDP": 525.24,
+    "GDP Rate": -0.91
+  }
+]

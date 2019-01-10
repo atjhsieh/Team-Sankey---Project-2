@@ -1,0 +1,119 @@
+[
+  {
+    "Country": "Australia",
+    "Year": 2012,
+    "Index Rate of Return": -14.51,
+    "Unemployment": 5.2,
+    "Inflation": 3,
+    "GDP": 1390.56,
+    "GDP Rate": 21.67
+  },
+  {
+    "Country": "Brazil",
+    "Year": 2012,
+    "Index Rate of Return": -18.11,
+    "Unemployment": 6,
+    "Inflation": 6.5,
+    "GDP": 2208.87,
+    "GDP Rate": 32.5
+  },
+  {
+    "Country": "China",
+    "Year": 2012,
+    "Index Rate of Return": -19.97,
+    "Unemployment": 4.1,
+    "Inflation": 4.1,
+    "GDP": 7572.55,
+    "GDP Rate": 24.13
+  },
+  {
+    "Country": "USA",
+    "Year": 2012,
+    "Index Rate of Return": 0,
+    "Unemployment": 8.5,
+    "Inflation": 3,
+    "GDP": 14964.4,
+    "GDP Rate": 3.78
+  },
+  {
+    "Country": "Indonesia",
+    "Year": 2012,
+    "Index Rate of Return": 3.2,
+    "Unemployment": 6.56,
+    "Inflation": 0.57,
+    "GDP": -1.3,
+    "GDP Rate": -10.34
+  },
+  {
+    "Country": "Korea",
+    "Year": 2012,
+    "Index Rate of Return": -10.98,
+    "Unemployment": 3.2,
+    "Inflation": 4.2,
+    "GDP": 0.6,
+    "GDP Rate": -40
+  },
+  {
+    "Country": "Argentina",
+    "Year": 2012,
+    "Index Rate of Return": -30.11,
+    "Unemployment": 6.7,
+    "Inflation": 9.5,
+    "GDP": 530.2,
+    "GDP Rate": 25.17
+  },
+  {
+    "Country": "Italy",
+    "Year": 2012,
+    "Index Rate of Return": -24.81,
+    "Unemployment": 9.6,
+    "Inflation": 3.27,
+    "GDP": 2276.29,
+    "GDP Rate": 7.12
+  },
+  {
+    "Country": "Mexico",
+    "Year": 2012,
+    "Index Rate of Return": -3.82,
+    "Unemployment": 4.51,
+    "Inflation": 3.82,
+    "GDP": 1171.19,
+    "GDP Rate": 11.42
+  },
+  {
+    "Country": "Japan",
+    "Year": 2012,
+    "Index Rate of Return": -17.34,
+    "Unemployment": 4.5,
+    "Inflation": -0.2,
+    "GDP": 6157.5,
+    "GDP Rate": 8.02
+  },
+  {
+    "Country": "New Zealand",
+    "Year": 2012,
+    "Index Rate of Return": -1.04,
+    "Unemployment": 6,
+    "Inflation": 1.8,
+    "GDP": 146.58,
+    "GDP Rate": 20.8
+  },
+  {
+    "Country": "Switzerland",
+    "Year": 2012,
+    "Index Rate of Return": -7.77,
+    "Unemployment": 3.3,
+    "Inflation": -0.7,
+    "GDP": 581.21,
+    "GDP Rate": 7.73
+  },
+  {
+    "Country": "Taiwan",
+    "Year": 2012,
+    "Index Rate of Return": -21.18,
+    "Unemployment": 4.23,
+    "Inflation": 2.03,
+    "GDP": 446.14,
+    "GDP Rate": 13.78
+  }
+]
