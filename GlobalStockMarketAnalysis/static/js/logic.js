@@ -18,7 +18,7 @@ $(function(){
             enabled: true
         },
         title: {
-            text: "Series' Ratings",
+            text: "Index Data by Year",
             font: {
                 size: 28
             }
@@ -46,7 +46,7 @@ var chartGroup = svg.append("g")
   .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 // Import data from an external CSV file
-d3.csv("data.csv", function(error, myData) {
+d3.csv("../static/data/data.csv", function(error, myData) {
   if (error) throw error;
 
   console.log(myData);

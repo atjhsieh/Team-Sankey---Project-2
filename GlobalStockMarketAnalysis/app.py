@@ -1,4 +1,4 @@
-from config import password, username
+# from config import password, username
 import pymongo
 import os
 from bson.json_util import dumps
@@ -10,7 +10,7 @@ from flask import (
     request,
     redirect)
 
-conn = f'mongodb://{username}:{password}@cluster0-shard-00-00-kjmy2.mongodb.net:27017,cluster0-shard-00-01-kjmy2.mongodb.net:27017,cluster0-shard-00-02-kjmy2.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true'
+conn = os.environ.get("MONGODB_URI")
 client = pymongo.MongoClient(conn)
 db = client.GlobalMarkets_DB
 
