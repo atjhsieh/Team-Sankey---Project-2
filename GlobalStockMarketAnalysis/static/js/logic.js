@@ -37,7 +37,7 @@ var height = svgHeight - margin.top - margin.bottom;
 
 // Create an SVG wrapper, append an SVG group that will hold our chart, and shift the latter by left and top margins.
 var svg = d3
-  .select(".regression-plot")
+  .select("body")
   .append("svg")
   .attr("width", svgWidth)
   .attr("height", svgHeight);
@@ -46,7 +46,7 @@ var chartGroup = svg.append("g")
   .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 // Import data from an external CSV file
-d3.csv("../static/data/data.csv", function(error, myData) {
+d3.csv("data.csv", function(error, myData) {
   if (error) throw error;
 
   console.log(myData);
