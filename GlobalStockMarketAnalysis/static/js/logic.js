@@ -37,7 +37,7 @@ var height = svgHeight - margin.top - margin.bottom;
 
 // Create an SVG wrapper, append an SVG group that will hold our chart, and shift the latter by left and top margins.
 var svg = d3
-  .select(".regression-plot")
+  .select("#chart-area2")
   .append("svg")
   .attr("width", svgWidth)
   .attr("height", svgHeight);
