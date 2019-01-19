@@ -30,14 +30,14 @@ $(function(){
 var svgWidth = 960;
 var svgHeight = 500;
 
-var margin = { top: 20, right: 40, bottom: 60, left: 50 };
+var margin = { top: 20, right: 40, bottom: 70, left: 50 };
 
 var width = svgWidth - margin.left - margin.right;
 var height = svgHeight - margin.top - margin.bottom;
 
 // Create an SVG wrapper, append an SVG group that will hold our chart, and shift the latter by left and top margins.
 var svg = d3
-  .select("#chart-area2")
+  .select(".regression-plot")
   .append("svg")
   .attr("width", svgWidth)
   .attr("height", svgHeight);
@@ -64,18 +64,21 @@ d3.csv("data.csv", function(error, myData) {
     data.Inflation = +data.Inflation;
   });
 
+  console.log([myData].Year);
+
   // Create scaling functions
   var xTimeScale = d3.scaleTime()
     .domain(d3.extent(myData, d => d.Year))
     .range([0, width]);
 
   var yLinearScale1 = d3.scaleLinear()
-    .domain([0, d3.max(myData, d => d.ROR)])
-    .range([height, -30]);
+    .domain([d3.min(myData, d => d.ROR), d3.max(myData, d => d.ROR)])
+    .range([height, 0]);
 
   var yLinearScale2 = d3.scaleLinear()
-    .domain([0, d3.max(myData, d => d.GDPRate)])
-    .range([height, -30]);
+    .domain([d3.min(myData, d => d.GDPRate), d3.max(myData, d => d.GDPRate)])
+    .range([height, 0]);
+    
 
 
 
@@ -103,7 +106,7 @@ d3.csv("data.csv", function(error, myData) {
     .attr("transform", `translate(${width}, 0)`)
     .call(rightAxis);
 
-  // Line generators for each line
+  //Line generators for each line
   var line1 = d3.line()
     .x(d => xTimeScale(d.Year))
     .y(d => yLinearScale1(d.ROR));
@@ -114,13 +117,13 @@ d3.csv("data.csv", function(error, myData) {
   
   var line3 = d3.line()
     .x(d => xTimeScale(d.Year))
-    .y(d => yLinearScale3(d.Unemployment)); 
+    .y(d => yLinearScale2(d.Unemployment)); 
   
-  var line3 = d3.line()
+  var line4 = d3.line()
     .x(d => xTimeScale(d.Year))
-    .y(d => yLinearScale3(d.Inflation)); 
+    .y(d => yLinearScale2(d.Inflation)); 
 
-  // Append a path for line1
+  //Append a path for line1
   chartGroup.append("path")
     .data([myData])
     .attr("d", line1)
@@ -136,23 +139,41 @@ d3.csv("data.csv", function(error, myData) {
   chartGroup.append("path")
     .data([myData])
     .attr("d", line3)
-    .classed("line red", true);
+    .attr("stroke", "red")
+    .attr("stroke-width", 2)
+    .attr("fill", "none");
 
-  // Append a path for line3
+  // Append a path for line4
   chartGroup.append("path")
     .data([myData])
     .attr("d", line4)
-    .classed("line black", true);    
+    .attr("stroke", "black")
+    .attr("stroke-width", 2)
+    .attr("fill", "none");   
 
 
   // Append axes titles
   chartGroup.append("text")
-  .attr("transform", `translate(${width / 2}, ${height + margin.top + 20})`)
-    .classed("dow-text text", true)
+    .attr("transform", `translate(${width / 2}, ${height + margin.top + 7})`)
+    .classed("ROR-text text", true)
     .text("ROR");
 
   chartGroup.append("text")
-  .attr("transform", `translate(${width / 2}, ${height + margin.top + 37})`)
-    .classed("smurf-text text", true)
+    .attr("transform", `translate(${width / 2}, ${height + margin.top + 20})`)
+    .classed("GDP-text text", true)
     .text("GDP Rate");
+
+  chartGroup.append("text")
+    .attr("transform", `translate(${width / 2}, ${height + margin.top + 35 })`)
+    .classed("UE-text text", true)
+    .text("Unemployment");
+  
+  chartGroup.append("text")
+    .attr("transform", `translate(${width / 2}, ${height + margin.top + 50})`)
+    .classed("inflation-text text", true)
+    .text("Inflation");
+
+
+
+
 });

@@ -16,10 +16,19 @@
   text-anchor: middle;
 }
 
-.smurf-text {
+.ROR-text {
   fill: blue;
 }
 
-.dow-text {
+.GDP-text {
   fill: green;
 }
+
+.UE-text {
+  fill: red;
+}
+
+.inflation-text {
+  fill: black;
+}
+
