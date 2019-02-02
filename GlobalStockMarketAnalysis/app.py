@@ -22,6 +22,10 @@ def home():
     print(global_markets)
     return render_template("index.html", global_markets=global_markets)
 
+@app.route("/about")
+def about():
+    return render_template("about.html")
+
 @app.route("/alldata")
 def data_json():
    global_markets = list(db.GlobalMarkets.find())
